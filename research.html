@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title data-uw-styling-context="true">Eskisehir Techical University - Research</title>
+ 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-estu.png">
+
+ 	<style>
+		body{
+		background-color: #f1f1f1;
+		}
+		img#logo {
+			width: 50%;
+		}
+		nav{
+			float: left;
+			width: 20%;
+		}
+		section {
+		  border-style: none none none groove;
+		  width: 79.2%;
+		}
+		section img {
+			width: 25%;
+		}
+		.clearfix {
+      overflow: auto;
+    }
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding:0;
+		  background-color: #f1f1f1;
+		}
+
+		li a {
+		  display: block;
+		  color: #000;
+		  padding: 1.5vw 3vw;
+		  text-decoration: none;
+		  font-size: 1.5vw;
+		  font-family: Verdana;
+		}
+
+		li a:hover {
+		  background-color: #D6D7DB;
+		  color: white;
+		}
+		h1 {
+		  font-family: Helvetica;
+		  font-size: 2vw;
+		  padding: 0vw 1.5vw 1.2vw 1.5vw;
+		  border-style: none none solid none;
+		}
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.dropdown-image {
+		  display: none;
+		  background-color: #f9f9f9;
+		  width:350vw;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdownimg:hover .dropdown-image {
+		  display: block;
+		}			
+		.active {
+		  background-color: #873e23;
+		  font-size:2vw;
+		  font-weight: bold;
+		}
+				.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  background-color: #f9f9f9;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown:hover .dropdown-content {
+		  display: block;
+		}
+
+		.desc {
+		  padding: 15px;
+		  text-align: center;
+		}
+
+
+		footer{
+			border: 1vw;
+		}
+		footer p {
+			text-align: center;
+			font-size: 1vw;
+
+		}
+
+	</style>
+ </head>
+ <body>
+ 	<header>
+ 		<div >
+       <img id="logo" src="estu_logo_vektorel.svg" alt="Estü">
+     </div>
+  </header>
+ 	<hr>
+ 	<nav class="clearfix">
+<ul>
+  <li><a  href="home.html">HOME</a></li>
+  <li><a  href="university.html">UNIVERSITY</a></li>
+  <li><a  href="academics.html ">ACADEMICS</a></li>
+  <li class="dropdown"><a  href="students.html ">STUDENTS</a>
+  	<div class="dropdown-content"> 
+   <a href="login.html" >LOGIN</a>
+   <a  href="documents.html">DOCUMENTS</a>
+  </div>
+  <li><a class="active" href="research.html">RESEARCH</a></li>
+  <li><a href="campuslife.html">CAMPUS LIFE</a></li>
+ </ul>
+
+</nav>
+<section class="contents clearfix">
+<h1> Research</h1>
+
+<div class="dropdownimg">
+<img  src="https://alsd.eskisehir.edu.tr/Uploads/alsd/Slider/ekran-resmi-2022-03-15-11.01.58.png" alt="yayın miktarı">
+<div class="dropdown-image">
+<img src="https://alsd.eskisehir.edu.tr/Uploads/alsd/Slider/ekran-resmi-2022-03-15-11.01.58.png" alt="yayın miktarı">
+</div>
+</div>
+<div class="dropdownimg">
+<img  src="https://alsd.eskisehir.edu.tr/Uploads/alsd/Slider/ekran-resmi-2022-03-15-11.04.54.png" alt="yayın miktarı">
+<div class="dropdown-image">
+<img src="https://alsd.eskisehir.edu.tr/Uploads/alsd/Slider/ekran-resmi-2022-03-15-11.04.54.png" alt="yayın miktarı">
+</div>
+</div>
+<div class="dropdownimg">
+<img  src="https://alsd.eskisehir.edu.tr/Uploads/alsd/Slider/ekran-resmi-2022-03-15-10.43.27.png" alt="yayın miktarı">
+<div class="dropdown-image">
+<img src="https://alsd.eskisehir.edu.tr/Uploads/alsd/Slider/ekran-resmi-2022-03-15-10.43.27.png" alt="yayın miktarı">
+</div>
+</div>
+
+</section>
+<hr>
+<footer>
+	<div>
+<p>2022 © Tüm hakları saklıdır. Eskişehir Teknik Üniversitesi  <br> Designed By Salih KIZILIŞIK <br> <a href="home.html">Privacy&nbsp;Policy |</a><a href="home.html">&nbsp;Terms of Use</a></p></div>
+</footer>
+ </body>
+</html>
